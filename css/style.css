@@ -1,0 +1,95 @@
+/* reset */
+
+img,
+svg,
+picture,
+video {
+    max-width: 100%;
+}
+
+/* header */
+
+header .sony {
+    height: 20px;
+    background-color: black;
+    text-align: right;
+}
+
+
+/* jumbotron */
+
+.jumbotron {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.jumbotron .row {
+    height: 80vh;
+}
+
+
+/* takes-two */
+
+.takes-two .row {
+    height: 80vh;
+}
+
+.takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* play-plus */
+
+.playstation-plus {
+    background-color: #BEBCBB;
+}
+
+.playstation-plus .col-12 img {
+    width: 50%;
+}
+
+
+/* nuove-uscite */
+
+.nuove-uscite {
+    background-color: #1F1F1F;
+}
+
+
+/* playstation-now */
+
+.playstation-now {
+    background-color: #161C3B;
+}
+
+.playstation-now .col-12 img {
+    width: 50%;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #00439C;
+}
+
+footer img {
+    width: 15%;
+}
+
+footer a {
+    color: white;
+}
+
+/* UTILITY */
+
+.color-white {
+    color: white;
+}
