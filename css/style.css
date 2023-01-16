@@ -9,10 +9,18 @@ video {
 
 /* header */
 
+header {
+    height: 80px;
+}
+
 header .sony {
     height: 20px;
     background-color: black;
     text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
 }
 
 
@@ -31,10 +39,26 @@ header .sony {
 }
 
 
+/* ps5-info */
+
+.ps5-info .no-limit {
+    font-size: 0.9rem;
+    color: #127cd1;
+    margin-top: 7rem;
+}
+
+.ps5-info p {
+    color: #727272;
+}
+
 /* takes-two */
 
 .takes-two .row {
     height: 80vh;
+}
+
+.takes-two img {
+    width: 70%;
 }
 
 .takes-two {
@@ -91,5 +115,20 @@ footer a {
 /* UTILITY */
 
 .color-white {
+    color: white;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.btn-red {
+    background-color: #CD3D0F;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #2d64e6;
     color: white;
 }
