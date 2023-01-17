@@ -11,7 +11,7 @@ video {
 
 header {
     position: fixed;
-    height: 80px;
+    height: 115px;
     width: 100%;
     background-color: white;
     z-index: 2;
@@ -31,24 +31,40 @@ header nav ul li {
     display: inline-block;
 }
 
+.navbar .icon-menu-container {
+    width: 100vw;
+    border-bottom: 2px solid gray;
+}
+
 
 /* jumbotron */
 
 .jumbotron {
-    padding-top: 80px;
+    height: 80vh;
+    padding-top: 115px;
     background-image: url(../img/jumbo-bg.png);
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.jumbotron .row {
+    height: 70vh;
+}
+
 .jumbotron .hero-banner {
     width: 50%;
 }
 
-.jumbotron .row {
-    height: 80vh;
+.thumb-container .img-container {
+    transition: 1s;
+    cursor: pointer;
 }
+
+.thumb-container .img-container:hover {
+    transform: translateY(-20px);
+}
+
 
 
 /* ps5-info */
@@ -59,12 +75,14 @@ header nav ul li {
     margin-top: 7rem;
 }
 
+.ps5-info .img-container:hover {
+    opacity: 100 !important;
+    border-bottom: 2px solid #0dcaf0;
+    cursor: pointer;
+}
+
 
 /* takes-two */
-
-.takes-two .row {
-    height: 80vh;
-}
 
 .takes-two img {
     width: 70%;
@@ -75,6 +93,21 @@ header nav ul li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+/* new-games */
+
+.new-games {
+    background-color: #1F1F1F;
+}
+
+.new-games img {
+    cursor: pointer;
+}
+
+.new-games .game-name {
+    font-size: .8rem;
 }
 
 
@@ -89,15 +122,12 @@ header nav ul li {
 }
 
 
-/* nuove-uscite */
-
-.nuove-uscite {
-    background-color: #1F1F1F;
+.discounts img {
+    cursor: pointer;
 }
 
-.nuove-uscite .game-name {
-    font-size: .8rem;
-}
+
+
 
 /* playstation-now */
 
@@ -120,6 +150,11 @@ footer ul {
     list-style: none;
 }
 
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 footer img {
     width: 15%;
 }
@@ -128,6 +163,8 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+
 
 /* UTILITY */
 
@@ -145,9 +182,17 @@ footer a {
     color: white;
 }
 
+.btn-red:hover {
+    border-color: #CD3D0F;
+}
+
 .btn-blue {
     background-color: #2d64e6;
     color: white;
+}
+
+.btn-blue:hover {
+    border-color: #2d64e6
 }
 
 .btn-gray {
@@ -155,9 +200,22 @@ footer a {
     color: #3C6EE5;
 }
 
+.btn-gray:hover {
+    color: #3C6EE5;
+    border-color: #3C6EE5;
+}
+
+.btn-black:hover {
+    border-color: #363636;
+}
+
 .btn-white {
     background-color: #F5F5F5;
     color: black;
+}
+
+.btn-white:hover {
+    border-color: white;
 }
 
 .btn-black {
