@@ -1,0 +1,188 @@
+/* reset */
+
+img,
+svg,
+picture,
+video {
+    max-width: 100%;
+}
+
+
+/* HEADER */
+header {
+    position: fixed;
+    height: 115px;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+header .sony {
+    background-color: black;
+    text-align: right;
+}
+
+header .sony img {
+    width: 100px;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    position: static !important;
+}
+
+
+.navbar .icon-menu-container {
+    width: 100vw;
+    border-bottom: 2px solid gray;
+}
+
+.navbar .link-drop::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+    background-color: #127cd1;
+}
+
+.navbar .link-drop a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* jumbotron */
+
+
+.jumbotron {
+    box-shadow: 0px 40px 30px -15px rgb(227, 225, 225);
+}
+
+.jumbotron-bg {
+    height: 70vh;
+    padding-top: 115px;
+    background-image: url(img/playstation-store-golden-week-sale-spotlight.jpg);
+    background-position: center;
+    background-position-y: calc(-410px);
+}
+
+
+[class*=game] .row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin-bottom: 8rem;
+    padding-top: 10px;
+}
+
+/* ps-plus */
+
+.ps-plus {
+    background-color: #B8BCC2;
+}
+
+.ps-plus-bg {
+    /* height: 50vh; */
+    padding-top: 115px;
+    background-image: url(https://image.api.playstation.com/pr/bam-art/150/099/2c5eb1da-e4e5-4d81-b451-1cca611a6e49.jpg?w=5000&thumb=false);
+    background-position: center;
+    background-position-y: calc(-410px);
+}
+
+.ps-plus .ps-plus-logo {
+    width: 50%;
+}
+
+.welcome-on {
+    box-shadow: 0px 40px 30px -15px rgb(227, 225, 225);
+    margin-bottom: 7rem;
+}
+
+
+
+/* playstation-star */
+
+.playstation-star {
+    box-shadow: 0px 40px 30px -15px rgb(227, 225, 225);
+    margin-bottom: 7rem;
+}
+
+.playstation-star-bg {
+    height: 50vh;
+    background-image: url(https://image.api.playstation.com/pr/bam-art/146/088/000f2852-b7d1-43e8-aa21-16f3c3e40bac.jpg?w=5000&thumb=false);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* footer */
+footer {
+    background-color: #003697;
+    color: white;
+}
+
+footer ul li:hover {
+    color: #3776eb;
+    cursor: pointer;
+}
+
+footer .country:hover {
+    color: #3776eb;
+    cursor: pointer;
+}
+
+/* utility */
+
+.small-text {
+    font-size: .8rem;
+}
+
+.btn {
+    padding: 7px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.btn-blue {
+    background-color: #2d64e6;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-blue:hover {
+    color: white;
+    background-color: #2d64e6;
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px 3px #2d64e6;
+}
+
+.btn-white {
+    color: #127cd1;
+}
+
+.btn-white:hover {
+    background-color: rgb(228, 226, 226);
+    color: #1070be;
+}
+
+[class*=game] img:hover {
+    opacity: 95%;
+    box-shadow: 0px 0px 0px 3px #2d64e6;
+    cursor: pointer;
+}
+
+.row .box-visual {
+    height: 166px;
+    border: 2px solid lightgray;
+    cursor: pointer;
+}
+
+.row .box-visual:hover {
+    box-shadow: 0px 0px 0px 3px #2d64e6;
+}
+
+ul {
+    list-style: none;
+}
